@@ -1,9 +1,3 @@
-variable "aws_config_role_name" {
-  description = "(Optional) Name of the role used for AWS Config initial setup"  
-  type        = string
-  default     = "aws-config-iam-role"
-}
-
 variable "setup_config" {
   description = "(Required) Set to true if AWS Config initial configuration should be performed"
   type        = bool
